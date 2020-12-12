@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: a71d9c0a7400fe945ab82a9aceb64900
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6614656821616295135
+    second: Water Pond_0
+  - first:
+      213: -6324854700001812918
+    second: Water Pond_1
+  - first:
+      213: 766648390689465503
+    second: Water Pond_2
+  - first:
+      213: -7678573462021313053
+    second: Water Pond_3
+  - first:
+      213: 493565694016859246
+    second: Water Pond_4
+  - first:
+      213: -8741171142914415040
+    second: Water Pond_5
+  - first:
+      213: 3116165529476798601
+    second: Water Pond_6
+  - first:
+      213: 6808294098008919147
+    second: Water Pond_7
+  - first:
+      213: 6417855225884157804
+    second: Water Pond_8
+  - first:
+      213: -6439654048398514874
+    second: Water Pond_9
+  - first:
+      213: 5739039896955685791
+    second: Water Pond_10
+  - first:
+      213: 1436836626650376529
+    second: Water Pond_11
+  - first:
+      213: 6477953334460939742
+    second: Water Pond_12
+  - first:
+      213: 4769124175738156664
+    second: Water Pond_13
+  - first:
+      213: -7155520056274111454
+    second: Water Pond_14
+  - first:
+      213: -556347522714752001
+    second: Water Pond_15
+  - first:
+      213: -2515001529824733882
+    second: Water Pond_16
+  - first:
+      213: -8600304099360246383
+    second: Water Pond_17
+  - first:
+      213: 648350796817123523
+    second: Water Pond_18
+  - first:
+      213: -6053204214482153840
+    second: Water Pond_19
+  - first:
+      213: -4013267285445127997
+    second: Water Pond_20
+  - first:
+      213: -2692690975432961296
+    second: Water Pond_21
+  - first:
+      213: 1161620431168762688
+    second: Water Pond_22
+  - first:
+      213: 466031937944284394
+    second: Water Pond_23
+  - first:
+      213: 6693011761851019947
+    second: Water Pond_24
+  - first:
+      213: 6802841885796117299
+    second: Water Pond_25
+  - first:
+      213: 1347044326999559956
+    second: Water Pond_26
+  - first:
+      213: 7872744013029723995
+    second: Water Pond_27
+  - first:
+      213: 5815974444663073778
+    second: Water Pond_28
+  - first:
+      213: 502494302461453782
+    second: Water Pond_29
+  - first:
+      213: 6505132654678728820
+    second: Water Pond_30
+  - first:
+      213: 4406472823630345916
+    second: Water Pond_31
+  - first:
+      213: 8911041241061294837
+    second: Water Pond_32
+  - first:
+      213: -2788841107421757997
+    second: Water Pond_33
+  - first:
+      213: 3219515151245135440
+    second: Water Pond_34
+  - first:
+      213: -9038714158615979148
+    second: Water Pond_35
+  - first:
+      213: 6674145240992636358
+    second: Water Pond_36
+  - first:
+      213: -4262666159708908889
+    second: Water Pond_37
+  - first:
+      213: 4125508200536145576
+    second: Water Pond_38
+  - first:
+      213: 2945754769542160380
+    second: Water Pond_39
+  - first:
+      213: -8723154755192846202
+    second: Water Pond_40
+  - first:
+      213: 5748186330697324205
+    second: Water Pond_41
+  - first:
+      213: -7739770420843073933
+    second: Water Pond_42
+  - first:
+      213: 2601289246964938250
+    second: Water Pond_43
+  - first:
+      213: 8426573931915322045
+    second: Water Pond_44
+  - first:
+      213: -1798629255840137719
+    second: Water Pond_45
+  - first:
+      213: -7059737471008348495
+    second: Water Pond_46
+  - first:
+      213: -6748918690891592154
+    second: Water Pond_47
+  - first:
+      213: -1174127234217792741
+    second: Water Pond_48
+  - first:
+      213: 8780965389303191707
+    second: Water Pond_49
+  - first:
+      213: -8119417022861968265
+    second: Water Pond_50
+  - first:
+      213: 3097764319567461078
+    second: Water Pond_51
+  - first:
+      213: 2607212704894717679
+    second: Water Pond_52
+  - first:
+      213: -3841993641100292719
+    second: Water Pond_53
+  - first:
+      213: 8387986296129834028
+    second: Water Pond_54
+  - first:
+      213: 7813368241405642680
+    second: Water Pond_55
+  - first:
+      213: -8195463647307868243
+    second: Water Pond_56
+  - first:
+      213: 494846800774090938
+    second: Water Pond_57
+  - first:
+      213: -6359886807090060546
+    second: Water Pond_58
+  - first:
+      213: -2611388506771933085
+    second: Water Pond_59
+  - first:
+      213: -7409392507822717974
+    second: Water Pond_60
+  - first:
+      213: 2156227331339146997
+    second: Water Pond_61
+  - first:
+      213: 1163435703314555879
+    second: Water Pond_62
+  - first:
+      213: 4927342900265546639
+    second: Water Pond_63
+  - first:
+      213: 1608135247287022488
+    second: Water Pond_64
+  - first:
+      213: 7986444017731573818
+    second: Water Pond_65
+  - first:
+      213: 1764307550532676654
+    second: Water Pond_66
+  - first:
+      213: -2891999097746962910
+    second: Water Pond_67
+  - first:
+      213: 379515799954710533
+    second: Water Pond_68
+  - first:
+      213: 5311985546958086444
+    second: Water Pond_69
+  - first:
+      213: 1721633702390511224
+    second: Water Pond_70
+  - first:
+      213: 7175066443285204025
+    second: Water Pond_71
+  - first:
+      213: -5813592933179780046
+    second: Water Pond_72
+  - first:
+      213: 5214250838195796289
+    second: Water Pond_73
+  - first:
+      213: 2589571606224907600
+    second: Water Pond_74
+  - first:
+      213: -7714436926883662347
+    second: Water Pond_75
+  - first:
+      213: -2134869522315279031
+    second: Water Pond_76
+  - first:
+      213: -1720277770156083900
+    second: Water Pond_77
+  - first:
+      213: 457445397708071001
+    second: Water Pond_78
+  - first:
+      213: 6733116557977095792
+    second: Water Pond_79
+  - first:
+      213: 5059557088084022615
+    second: Water Pond_80
+  - first:
+      213: 1280076341609427448
+    second: Water Pond_81
+  - first:
+      213: -2138437452787708103
+    second: Water Pond_82
+  - first:
+      213: 3231941426850770540
+    second: Water Pond_83
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water Pond_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcbd83555bfbcb50800000000000000
+      internalID: 6614656821616295135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Pond_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e9e6e292a9938a0800000000000000
+      internalID: -6324854700001812918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Pond_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94aba246aea3aa00800000000000000
+      internalID: 766648390689465503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Pond_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed6a7e7e1a307590800000000000000
+      internalID: -7678573462021313053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Pond_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ca139326f79d600800000000000000
+      internalID: 493565694016859246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Pond_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046e0b1882f11b680800000000000000
+      internalID: -8741171142914415040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
