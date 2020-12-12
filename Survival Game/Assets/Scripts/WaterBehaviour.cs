@@ -9,12 +9,14 @@ public class WaterBehaviour : MonoBehaviour
     public int maxSize;
     bool ThisDay = false;
     public Animator animator;
+    private Craft Enabled;
 
     // Start is called before the first frame update
     void Start()
     {
         Cycle = GameObject.FindGameObjectWithTag("Cycle").GetComponent<DayNightCycle>();
-        animator.GetComponent<Animator>();   
+        animator.GetComponent<Animator>();
+        Enabled = GameObject.FindObjectOfType<Craft>().GetComponent<Craft>();
     }
 
     // Update is called once per frame
@@ -44,5 +46,15 @@ public class WaterBehaviour : MonoBehaviour
 
     private void OnBecameInvisible() {
         FindObjectOfType<AudioManager>().StopPlaying("Water");
+    }
+
+    private void OnMouseOver() {
+        Debug.Log("Craft not enabled");
+        Enabled.enabled = false;
+    }
+
+    private void OnMouseExit() {
+        Debug.Log("Craft enabled");
+        Enabled.enabled = true;
     }
 }

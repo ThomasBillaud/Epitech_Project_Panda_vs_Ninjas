@@ -37,7 +37,7 @@ public class Craft : MonoBehaviour
         if (invBam.selected && Input.GetMouseButtonDown(0) && invBam.stock >= nbItemsRequired && craftEnabled)
         {
             mousePosition = Camera.main.ScreenToWorldPoint(new Vector3 (Input.mousePosition.x, Input.mousePosition.y, 0));
-            Instantiate(craftUsed, new Vector3(mousePosition.x, -1.8f, 0), Quaternion.identity);
+            Instantiate(craftUsed, new Vector3(mousePosition.x, -1.85f, 0), Quaternion.identity);
             invBam.stock -= nbItemsRequired;
             if (craftUsed == Bamboo)
                 FindObjectOfType<AudioManager>().Play("Harvest");

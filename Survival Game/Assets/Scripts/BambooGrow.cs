@@ -24,7 +24,7 @@ public class BambooGrow : MonoBehaviour
     void Update()
     {
         if (stockBamboo < 10 && Cycle.IsDay == true) {
-            growingTime += (Time.deltaTime % 120) * speed;
+            growingTime += (Time.deltaTime % 60) * speed;
             string test = growingTime.ToString("Time is 000");
             Debug.Log(test);
             AddPhase();

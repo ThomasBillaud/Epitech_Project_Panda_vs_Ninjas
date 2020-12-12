@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DisplayInfo : MonoBehaviour
 {
-    public Text Info;
+    public TMP_Text Info;
     private BambooGrow Bamboo;
     private WaterBehaviour Water;
     private WallLife Wall;
