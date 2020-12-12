@@ -21,4 +21,6 @@ Placer sa construction : Clic Gauche avec le bambou sélectionné
 Arroser ses plantations : Clic Gauche avec l'eau sélectionnée
 Manger ou boire : Clic droit avec l'objet sélectionné
 
+Le .exe se situe dans le dossier Survival Game.
+
 N'hésitez pas à me donner votre retour sur le jeu :D
