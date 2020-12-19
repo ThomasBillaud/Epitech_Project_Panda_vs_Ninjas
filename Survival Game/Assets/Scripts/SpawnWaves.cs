@@ -54,12 +54,12 @@ public class SpawnWaves : MonoBehaviour
     {
         for (int i = 0; i < listWalls.Length; i++)
         {
-            float distance = listWalls[i].transform.position.magnitude;
-            if (distance < walls[0])
+            float distance = listWalls[i].transform.position.x;
+            if (distance <= listWalls[walls[0]].transform.position.x)
             {
                 walls[0] = i;
             }
-            else if (distance > walls[1])
+            if (distance >= listWalls[walls[1]].transform.position.x)
             {
                 walls[1] = i;
             }
@@ -70,16 +70,16 @@ public class SpawnWaves : MonoBehaviour
     {
         Vector3[] v = new Vector3[2];
 
-        if (Mathf.Abs(listWalls[0].transform.position.x) > Mathf.Abs(Camera.main.transform.position.x - 10))
+        if (Mathf.Abs(listWalls[walls[0]].transform.position.x) > Mathf.Abs(Camera.main.transform.position.x - 10))
         {
-            v[0] = new Vector3(listWalls[0].transform.position.x - 10, -3.65f, 0);
+            v[0] = new Vector3(listWalls[walls[0]].transform.position.x - 10, -3.65f, 0);
         } else
         {
             v[0] = new Vector3(Camera.main.transform.position.x - 15, -3.65f, 0);
         }
-        if (Mathf.Abs(listWalls[1].transform.position.x + 10) > Mathf.Abs(Camera.main.transform.position.x + 10))
+        if (Mathf.Abs(listWalls[walls[1]].transform.position.x + 10) > Mathf.Abs(Camera.main.transform.position.x + 10))
         {
-            v[1] = new Vector3(listWalls[1].transform.position.x + 10, -3.65f, 0);
+            v[1] = new Vector3(listWalls[walls[1]].transform.position.x + 10, -3.65f, 0);
         } else
         {
             v[1] = new Vector3(Camera.main.transform.position.x + 15, -3.65f, 0);

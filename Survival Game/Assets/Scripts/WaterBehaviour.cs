@@ -49,12 +49,10 @@ public class WaterBehaviour : MonoBehaviour
     }
 
     private void OnMouseOver() {
-        Debug.Log("Craft not enabled");
         Enabled.enabled = false;
     }
 
     private void OnMouseExit() {
-        Debug.Log("Craft enabled");
         Enabled.enabled = true;
     }
 }

@@ -38,7 +38,7 @@ public class CanEat : MonoBehaviour
     {
         if (inTrigger && Input.GetKeyDown(KeyCode.S))
         {
-            if (Bamboo.stockBamboo > 0) {
+            if (Bamboo.stockBamboo > 0 && Inv.stock < 30) {
                 FindObjectOfType<AudioManager>().Play("Harvest");
                 Inv.stock += 1;
                 Bamboo.stockBamboo -= 1;

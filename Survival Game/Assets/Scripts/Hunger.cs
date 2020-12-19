@@ -27,7 +27,7 @@ public class Hunger : MonoBehaviour
             if (DaysCounter.Days > ActualDay)
             {
                 ActualDay = DaysCounter.Days;
-                Valeur += 0.0001f;
+                Valeur += 0.00005f;
             }
             Barre.fillAmount -= Appetite;
             Appetite = Valeur;

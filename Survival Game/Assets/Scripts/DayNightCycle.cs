@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class DayNightCycle : MonoBehaviour
 {
     public float DayTime;
+    public float NightTime;
     private float StartCycle = 0;
     public float alphaLevel = 0.00f;
     private bool IsDawn = true;
@@ -35,10 +36,10 @@ public class DayNightCycle : MonoBehaviour
             {
                 IsDawn = true;
             }
-            if (alphaLevel >= 1 || alphaLevel <= 0)
-            {
+            if (alphaLevel >= 1)
+                yield return new WaitForSeconds(NightTime);
+            if (alphaLevel <= 0)
                 yield return new WaitForSeconds(DayTime);
-            }
             if (IsDawn == true) {
                 StartCycle++;
                 alphaLevel += 0.005f;

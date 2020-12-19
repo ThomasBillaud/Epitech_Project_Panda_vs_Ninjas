@@ -22,9 +22,9 @@ public class NinjaMove : MonoBehaviour
         myTransform = GetComponent<Transform>();
         if (transform.position.x < 0) {
             animator.SetBool("left", false);
-            direction += Vector2.right;
+            direction = Vector2.right;
         } else {
-            direction += Vector2.left;
+            direction = Vector2.left;
         }
         Debug.Log("Spawn Ninja at " + myTransform.position.x);
     }
@@ -56,43 +56,56 @@ public class NinjaMove : MonoBehaviour
         yield return new WaitForSeconds(5);
         Bamboo.stockBamboo -= 1;
         animator.SetBool("runAway", true);
+        hasRunAway = true;
         FindObjectOfType<AudioManager>().Play("NinjaLaugh");
         if (animator.GetBool("left") == false) {
-            direction += Vector2.left;
+            direction = Vector2.left;
         } else {
-            direction += Vector2.right;
+            direction = Vector2.right;
         }
+        Bamboo = null;
     }
 
     IEnumerator DestroyWall()
     {
         while (Wall.health > 0) {
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(10);
             Wall.health -= 1;
         }
         animator.SetBool("attack", false);
         if (animator.GetBool("left") == false) {
-            direction += Vector2.right;
+            direction = Vector2.right;
         } else {
-            direction += Vector2.left;
+            direction = Vector2.left;
         }
+        Wall = null;
     }
 
     // Update is called once per frame
     void Update()
     {
         Direction();
-        if (Cycle.IsDay == true && hasRunAway == false)
+        if (Cycle.IsDay == true && hasRunAway == false && animator.GetBool("runAway") == false)
         {
             hasRunAway = true;
             animator.SetBool("attack", false);
             StopAllCoroutines();
             if (animator.GetBool("left") == false) {
                 animator.SetBool("left", true);
-                direction += Vector2.left;
+                direction = Vector2.left;
             } else {
                 animator.SetBool("left", false);
-                direction += Vector2.right;
+                direction = Vector2.right;
+            }
+        }
+        if ((Wall != null && animator.GetBool("attack") == true && Wall.health <= 0) || (Bamboo != null && animator.GetBool("attack") == true && Bamboo.stockBamboo <= 0))
+        {
+            animator.SetBool("attack", false);
+            StopAllCoroutines();
+            if (animator.GetBool("left") == false) {
+                direction = Vector2.right;
+            } else {
+                direction = Vector2.left;
             }
         }
     }

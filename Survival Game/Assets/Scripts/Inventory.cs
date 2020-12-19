@@ -21,7 +21,7 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Inv.text = Name + " : " + stock;
+        Inv.text = Name + " : " + stock + "/30";
         if (Input.mouseScrollDelta.y != 0 && selected == false && pause == false)
         {
             image.rectTransform.sizeDelta = new Vector2(125, 125);
