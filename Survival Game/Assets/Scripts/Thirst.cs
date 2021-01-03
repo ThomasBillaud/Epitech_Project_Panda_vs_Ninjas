@@ -10,6 +10,7 @@ public class Thirst : MonoBehaviour
     public float Thirsty;
     public float Valeur;
     public CountDays DaysCounter;
+    public float stockFillAmount;
     int ActualDay;
 
     // Start is called before the first frame update
@@ -29,7 +30,8 @@ public class Thirst : MonoBehaviour
                 ActualDay = DaysCounter.Days;
                 Valeur += 0.00005f;
             }
-            Barre.fillAmount -= Thirsty;
+            stockFillAmount -= Thirsty;
+            Barre.fillAmount = stockFillAmount;
             Thirsty = Valeur;
             if (Barre.fillAmount <= 0)
             {

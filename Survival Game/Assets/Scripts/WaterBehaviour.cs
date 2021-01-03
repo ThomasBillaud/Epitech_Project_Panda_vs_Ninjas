@@ -7,7 +7,8 @@ public class WaterBehaviour : MonoBehaviour
     public int stockWater;
     DayNightCycle Cycle;
     public int maxSize;
-    bool ThisDay = false;
+    [HideInInspector]
+    public bool ThisDay = false;
     public Animator animator;
     private Craft Enabled;
 

@@ -30,7 +30,7 @@ public class SpawnWaves : MonoBehaviour
 
     void SpawnNinja()
     {
-        if (DayCycle.IsDay == false && thisNight == false) {
+        if (DayCycle.IsDay == false && thisNight == false && FindObjectsOfType<NinjaMove>().Length == 0) {
             thisNight = true;
             StartCoroutine(InstantiateNinja());
         }
@@ -40,8 +40,11 @@ public class SpawnWaves : MonoBehaviour
     {
         Vector3[] v;
 
+        listWalls = GameObject.FindGameObjectsWithTag("Wall");
         FindFarthestWall();
         v = FillVector();
+        Debug.Log("The walls are at " + listWalls[walls[0]].transform.position.x + " && " + listWalls[walls[0]].transform.position.x);
+        Debug.Log("Ninjas are spawning in " + v[0].x + " && " + v[1].x);
         for(int i = 0; i < Days.Days; i++)
         {
             Instantiate(Ninja, v[0], Quaternion.identity);

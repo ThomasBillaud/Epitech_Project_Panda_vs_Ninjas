@@ -15,8 +15,10 @@ public class CountDays : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Cycle != null)
+        if (Cycle != null) {
+            Counter.text = "Day : " + Days;
             Cycle.GetComponent<DayNightCycle>();
+        }
         else
             DisplayResult();
     }
@@ -40,5 +42,6 @@ public class CountDays : MonoBehaviour
     void DisplayResult()
     {
         Counter.text = "You survived : " + nbDays + " days";
+        nbDays = 1;
     }
 }

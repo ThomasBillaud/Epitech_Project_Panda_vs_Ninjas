@@ -10,6 +10,7 @@ public class Hunger : MonoBehaviour
     public float Appetite;
     public float Valeur;
     public CountDays DaysCounter;
+    public float stockFillAmount;
     int ActualDay;
 
     // Start is called before the first frame update
@@ -29,7 +30,8 @@ public class Hunger : MonoBehaviour
                 ActualDay = DaysCounter.Days;
                 Valeur += 0.00005f;
             }
-            Barre.fillAmount -= Appetite;
+            stockFillAmount -= Appetite;
+            Barre.fillAmount = stockFillAmount;
             Appetite = Valeur;
             if (Barre.fillAmount <= 0)
             {

@@ -8,9 +8,11 @@ public class DayNightCycle : MonoBehaviour
 {
     public float DayTime;
     public float NightTime;
-    private float StartCycle = 0;
+    [HideInInspector]
+    public float StartCycle = 0;
     public float alphaLevel = 0.00f;
-    private bool IsDawn = true;
+    [HideInInspector]
+    public bool IsDawn = true;
     public bool IsDay = true;
 
     // Start is called before the first frame update
@@ -39,7 +41,10 @@ public class DayNightCycle : MonoBehaviour
             if (alphaLevel >= 1)
                 yield return new WaitForSeconds(NightTime);
             if (alphaLevel <= 0)
+            {
+                Debug.Log("alphaLevel = " + alphaLevel);
                 yield return new WaitForSeconds(DayTime);
+            }
             if (IsDawn == true) {
                 StartCycle++;
                 alphaLevel += 0.005f;

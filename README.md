@@ -2,6 +2,8 @@
 Projet complémentaire au stage
 
 
+/!\ Le jeu est fait pour fonctionner sur Windows /!\
+
 Hello :
 
 En attendant d'avoir un vrai menu dans le jeu pour tout expliquer, voici ce que vous avez à savoir :

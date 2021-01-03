@@ -6,10 +6,13 @@ public class BambooGrow : MonoBehaviour
 {
     public int stockBamboo;
     DayNightCycle Cycle;
-    float growingTime;
-    int phase = 0;
-    int divideStock = 24;
-    int tmpStock = 1;
+    public float growingTime;
+    [HideInInspector]
+    public int phase = 0;
+    [HideInInspector]
+    public int divideStock = 24;
+    [HideInInspector]
+    public int tmpStock = 1;
     public Animator animator;
     public int speed = 1;
 

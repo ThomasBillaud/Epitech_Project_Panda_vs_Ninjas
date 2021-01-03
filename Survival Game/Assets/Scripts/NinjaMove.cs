@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class NinjaMove : MonoBehaviour
 {
@@ -26,7 +27,6 @@ public class NinjaMove : MonoBehaviour
         } else {
             direction = Vector2.left;
         }
-        Debug.Log("Spawn Ninja at " + myTransform.position.x);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -108,6 +108,10 @@ public class NinjaMove : MonoBehaviour
                 direction = Vector2.left;
             }
         }
+        if (GetComponent<Renderer>().isVisible == false && Cycle.IsDay == true)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     void Direction()
@@ -117,7 +121,7 @@ public class NinjaMove : MonoBehaviour
 
     private void OnBecameInvisible() {
 
-        if (animator.GetBool("runAway") == true || Cycle.IsDay == true) 
+        if (animator.GetBool("runAway") == true || Cycle.IsDay == true)
         {
             Destroy(this.gameObject);
         }

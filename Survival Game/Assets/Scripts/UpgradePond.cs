@@ -31,7 +31,6 @@ public class UpgradePond : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(inTrigger + ", " + Inv.selected + ", " + Inv.stock + ", " + Input.GetMouseButtonDown(0));
         if (inTrigger && Inv.selected && Inv.stock >= 10 && Input.GetMouseButtonDown(0))
         {
             Enabled.craftEnabled = false;
